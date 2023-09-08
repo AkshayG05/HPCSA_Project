@@ -1,7 +1,7 @@
-FROM centos:centos7
-RUN yum update -y
-RUN yum upgrade -y
-RUN yum install python3 -y 
-RUN mkdir /app
-COPY . /app/
-CMD [ "python3" , "/app/demo.py" ]
+#Dockerfile, image, container
+
+FROM python:3.8-slim-buster
+ADD . /python-flask
+WORKDIR /python-flask
+RUN pip install -r requirements.txt
+CMD [ "python", "./myapp.py" ]
