@@ -1,2 +1,2 @@
-# HPCSA_Project
-DevOps project By following this repository we can setup a CI/CD Pipeline using  git, Jenkins, Maven, Ansible, Docker &amp; Kubernetes.
+# CDAC_HPCSA_PROJECT
+In this project, the CI/CD pipeline is used to automate the deployment process. Also deploying built application to target environment cloud server or container, for provisioning, configuration, and containerization using Docker. HPC Docker xCAT image deployment can be used in future enhancement.
